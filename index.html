@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tropical Hut</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
-    <link rel="icon" href="images/icon/online_fraud.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   
 <!-- BODY -->
@@ -15,11 +15,18 @@
   <!-- NAVIGATION BAR -->
   <nav>
     <ul>
-      <a href="index.html">LOGO</a>
       <li><a href="index.html">HOME</a></li>
-      <li><a href="about.html">ORDERS</a></li>
-      <li><a href="contact.html">SIGN IN</a></li>
+      <li><a href="menu.html">MENU</a></li>
+      <li><a href="order.html">ORDERS</a></li>
+      <li><a href="account.html">SIGN IN</a></li>
     </ul>
+    <div class="wrap">
+      <div class="search">
+         <input type="text" class="searchTerm" placeholder="&#xF002; Search" style="font-family:Arial, FontAwesome">
+         <button type="submit" class="searchButton">
+        </button>
+      </div>
+   </div>
   </nav>
 
   
@@ -28,217 +35,265 @@
     <!-- HOME SECTION -->
     <section class="home-section">
       <div class="home-container">
-        <img src = "images/home/savers.png" alt="Food Images">
+        <img src = "imgs/home/hero.png" alt="Food Images">
       </div>
     </section>
 
     <!-- CATEGORIES SECTION -->
     <section class="categories-section"> 
-      <h2>CATEGORIES</h2>
-      <div class="categories-burger">
-        <img src="images/home/categories/big-burger.png" alt="A Big Burger">
-      </div>
-
+      
+    <div class="categories-burger">
+        <img src="imgs/home/big-burger3.png" alt="A Big Burger">
+      </div> 
       
       <div class="categories-container">
-
+        <h2>CATEGORIES</h2>
         <!-- CATEGORIES ROW 1 -->
         <div class="categories-container-row">
           <div class="categories-container-item">
-            <div class="categories-item-pic">
-              <img src="#" alt="A Burger">
+            
+            <div class="categories-item-pic" >
+              <div class="img-bg"> <div class="img-container" id="cat-1" alt="image art"></div> </div> 
             </div>
             <div class="categories-item-text">
-              <h3>BURGER</h3>
+              <a href="index.html">Burger</a>
             </div>
           </div>
 
           <div class="categories-container-item">
             <div class="categories-item-pic">
-              <img src="#" alt="A Burger">
+              <div class="img-bg"> <div class="img-container" id="cat-2" alt="image art"></div> </div> 
             </div>
             <div class="categories-item-text">
-              <h3>BURGER</h3>
+              <h3>PASTA & CHICKEN</h3>
             </div>
           </div>
 
           <div class="categories-container-item">
             <div class="categories-item-pic">
-              <img src="#" alt="A Burger">
+              <div class="img-bg"> <div class="img-container" id="cat-3" alt="image art"></div> </div> 
             </div>
             <div class="categories-item-text">
-              <h3>BURGER</h3>
+              <h3>RICE MEALS</h3>
+            </div>
+          </div>
+          <div class="categories-container-item">
+            <div class="categories-item-pic">
+              <div class="img-bg"> <div class="img-container" id="cat-4" alt="image art"></div> </div> 
+            </div>
+            <div class="categories-item-text">
+              <h3>BEVERAGES</h3>
             </div>
           </div>
         </div>
 
         <!-- CATEGORIES ROW 2 -->
-        <div class="categories-container">
           <div class="categories-container-row">
             <div class="categories-container-item">
               <div class="categories-item-pic">
-                <img src="#" alt="A Burger">
+                <div class="img-bg"> <div class="img-container" id="cat-5" alt="image art"></div> </div> 
               </div>
               <div class="categories-item-text">
-                <h3>BURGER</h3>
+                <h3>SANDWICHES</h3>
               </div>
             </div>
   
             <div class="categories-container-item">
               <div class="categories-item-pic">
-                <img src="#" alt="A Burger">
+                <div class="img-bg"> <div class="img-container" id="cat-6" alt="image art"></div> </div> 
               </div>
               <div class="categories-item-text">
-                <h3>BURGER</h3>
+                <h3>BUNDLES</h3>
               </div>
             </div>
   
             <div class="categories-container-item">
               <div class="categories-item-pic">
-                <img src="#" alt="A Burger">
+                <div class="img-bg"> <div class="img-container" id="cat-7" alt="image art"></div> </div> 
               </div>
               <div class="categories-item-text">
-                <h3>BURGER</h3>
+                <h3>OTHER DESSERTS</h3>
+              </div>
+            </div>
+            <div class="categories-container-item">
+              <div class="categories-item-pic">
+                <div class="img-bg"> <div class="img-container" id="cat-8" alt="image art"></div> </div> 
+              </div>
+              <div class="categories-item-text">
+                <h3>OTHER VALUE MEALS</h3>
               </div>
             </div>
           </div>
-        </div>
       
       </div>
     </section>
 
     <!-- POPULAR SECTION -->
-    <section class="popular-section"> 
+    <section class="popular-section" id="popular-now"> 
+      <div class="popular-text">
       <h2>POPULAR NOW</h2>
 
       <div class="popular-container">
         <div class="popular-item">
-          <img src="images/home/popular/sandwich.png" alt="A Sandwich">
+          <div class="img-bg"> <div class="img-container" id="OthersDessert" alt="image art"></div> </div> 
           <div class="popular-item-box">
             <h5 id="popular-item-name">ITEM1 HERE</h5>
             <h5 id="popular-item-price">PRICE</h5>
-            <button>ORDER NOW</button>
+            <button class="btn">ORDER NOW</button>
           </div>
         </div>
+    
 
         <div class="popular-item">
-          <img src="images/home/popular/sandwich.png" alt="A Sandwich">
+          <div class="img-bg"> <div class="img-container" id="OthersDessert" alt="image art"></div> </div> 
           <div class="popular-item-box">
             <h5 id="popular-item-name">ITEM2 HERE</h5>
             <h5 id="popular-item-price">PRICE</h5>
-            <button>ORDER NOW</button>
+            <button class="btn">ORDER NOW</button>
           </div>
         </div>
 
         <div class="popular-item">
-          <img src="images/home/popular/sandwich.png" alt="A Sandwich">
+          <div class="img-bg"> <div class="img-container" id="OthersDessert" alt="image art"></div> </div> 
           <div class="popular-item-box">
             <h5 id="popular-item-name">ITEM3 HERE</h5>
             <h5 id="popular-item-price">PRICE</h5>
-            <button>ORDER NOW</button>
+            <button class="btn">ORDER NOW</button>
           </div>
         </div>
 
         <div class="popular-item">
-          <img src="images/home/popular/sandwich.png" alt="A Sandwich">
+          <div class="img-bg"> <div class="img-container" id="OthersDessert" alt="image art"></div> </div> 
           <div class="popular-item-box">
             <h5 id="popular-item-name">ITEM4 HERE</h5>
             <h5 id="popular-item-price">PRICE</h5>
-            <button>ORDER NOW</button>
+            <button class="btn">ORDER NOW</button>
           </div>
         </div>
 
         <div class="popular-item">
-          <img src="images/home/popular/sandwich.png" alt="A Sandwich">
+          <div class="img-bg"> <div class="img-container" id="OthersDessert" alt="image art"></div> </div> 
           <div class="popular-item-box">
             <h5 id="popular-item-name">ITEM5 HERE</h5>
             <h5 id="popular-item-price">PRICE</h5>
-            <button>ORDER NOW</button>
+            <button class="btn">ORDER NOW</button>
           </div>
         </div>
 
         <div class="popular-item">
-          <img src="images/home/popular/sandwich.png" alt="A Sandwich">
+          <div class="img-bg"> <div class="img-container" id="OthersDessert" alt="image art"></div> </div> 
           <div class="popular-item-box">
             <h5 id="popular-item-name">ITEM6 HERE</h5>
             <h5 id="popular-item-price">PRICE</h5>
-            <button>ORDER NOW</button>
+            <button class="btn">ORDER NOW</button>
           </div>
         </div>
 
-
+      </div>
       </div>
     </section>
 
     <!-- WHO SECTION -->
-    <section class="who-section"> 
+    <section class="who-section" id="who-section">
       <h2>WHO ARE WE?</h2>
 
       <div class="who-paragraph">
         <p id="who-paragraph-content">
           Tropical Hut is a Filipino chain of fast food restaurants owned by Mercury Group of Companies, 
-          Inc. It is the 7th oldest food chain in the Philippines and is considered by some Filipinos as
-          the "original" burger joint in the Philippines, being older than Jollibee (1978) and McDonald's
+          Inc. It is the 7th <br> oldest food chain in the Philippines and is considered by some Filipinos as
+          the "original" burger joint in the <br> Philippines, being older than Jollibee (1978) and McDonald's
           Philippines (1981). 
         </p>
       </div>
 
       <div class="who-tropical-logo">
-        <img src="images/home/who/tropical-logo.png" alt="Tropical Hut Logo">
+        <img src="imgs/home/tropical-logo.png" alt="Tropical Hut Logo">
       </div>
     </section>
-
     <!-- CUSTOMER SECTION -->
     <section class="customer-section"> 
       <h2>READ WHAT OUR CUSTOMERS SAY</h2>
       <div class="customer-container">
+        <div class="container">
         <div class="customer-container-left">
-          <img src="#">
           <div class="customer-review">
+            <div class="face">
+            <img src="imgs/home/face3.jpg">
               <h3>OLIVE DELA CRUZ</h3>
-              <img src="*****">
+            </div>
+            <div class="rate">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            </div>
               <p id="paragraph-review">
-                “First things first, the burger was juicy and flavorful with just the right amount of seasoning. 
-                The patty was cooked to perfection, making for a mouthwatering experience”
+                “First things first, the burger was juicy and flavorful with <br> just the right amount of seasoning. 
+                The patty was <br> cooked to perfection, making for a mouthwatering experience”
               </p>
           </div>
         </div>
 
         <div class="customer-container-left">
-          <img src="#">
           <div class="customer-review">
+            <div class="face">
+            <img src="imgs/home/face1.jpeg">
               <h3>NORMAN CRUZ</h3>
-              <img src="*****">
+            </div>
+            <div class="rate">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            </div>
               <p id="paragraph-review">
-                Each bundle is made with the freshest ingredients, resulting in a delicious and satisfying snack every time.
-                The sweet treats are perfectly balanced with the salty ones, creating a flavor explosion in every bite.
+                Each bundle is made with the freshest ingredients, resulting <br> in a delicious and satisfying snack every time.
+                The sweet treats <br> are perfectly balanced with the salty ones, creating a <br> flavor explosion in every bite.
               </p>
           </div>
         </div>
-
-        <div class="customer-container-upper-right">
-          <img src="#">
+        </div>
+        <div class="container">
+        <div class="customer-container-left">
           <div class="customer-review">
+            <div class="face">
+            <img src="imgs/home/face2.jpeg">
               <h3>ANDREI RAMOS</h3>
-              <img src="*****">
+            </div>
+            <div class="rate">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+          </div>
               <p id="paragraph-review">
-                I recently visited Tropical Hut, and I must say, I was thoroughly impressed. The food was really delicious, 
-                and the taste of the burgers was especially delicious.
+                I recently visited Tropical Hut, and I must say, I was <br> thoroughly impressed. The food was really delicious, 
+              <br>  and the taste of the burgers was especially delicious.
               </p>
           </div>
         </div>
 
-        <div class="customer-container-lower-right">
-          <img src="#">
+        <div class="customer-container-left">
           <div class="customer-review">
+            <div class="face">
+            <img src="imgs/home/face4.jpg">
               <h3>SHEILA MAE BACUD</h3>
-              <img src="*****">
+            </div>
+            <div class="rate">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            </div>
               <p id="paragraph-review">
                 very delicious
               </p>
           </div>
         </div>
-
       </div>
       
     </section>
@@ -248,31 +303,32 @@
         <div class="footer-container">
           <div class="footer-menu">
             <h3>MENU</h3>
-            <a href="#">CATEGORIES</a>
-            <a href="#">POPULAR NOW</a>
+            <a href="menu.html">CATEGORIES</a><br>
+            <a href="#popular-now">POPULAR NOW</a>
           </div>
 
           <div class="footer-about">
             <h3>ABOUT US</h3>
-            <a href="#">WHO ARE WE</a>
+            <a href="#who-section">WHO ARE WE</a>
           </div>
 
           <div class="footer-follow">
             <h3>FOLLOW US</h3>
-            <img src="#">
-            <img src="#">
-            <img src="#">
+            <div class="follow">
+            <i href="#" class="fa fa-facebook"></i>
+            <i href="#" class="fa fa-twitter"></i>
+            <i href="#" class="fa fa-instagram"></i>
           </div>
         </div>
-
-        <div class="footer-container">
-          <img src="#">
+          <div class="topicalhut"><img src="imgs/footer-logo.png" alt="topicalhut">
+          </div>
         </div>
+        <h5>© 2023 All rights reserved.<h5>
     </section>
 
   </div>
 
-
+ 
 
 </body>
 </html>
