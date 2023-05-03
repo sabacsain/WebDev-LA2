@@ -307,9 +307,8 @@ nav .img-bg:hover{
     height: auto;
     width: 100%;
     flex-direction: column;
+   position: sticky;
     top: 0;
-    position:fixed;
-    overflow-y:scroll;
   }
 
 
