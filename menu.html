@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tropical Hut</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
-    <link rel="icon" href="images/icon/online_fraud.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   
 <!-- BODY -->
-<body>
+<body id="menu-page">
 
   <!-- NAVIGATION BAR -->
   <nav>
@@ -33,6 +33,7 @@
    </ul>
   </nav>
 
+
   <div class="menu">
 
     <!-- MENU SECTION -->
@@ -41,63 +42,63 @@
 
         <div class="menu-list">
 
-            <div class="menu-container">
+            <div class="menu-container" onclick="location.href='#burger-section'">
                 <div class="menu-card" id="card1">
                     <img src="imgs/menu/menu-1.png" alt="A Burger">
                 </div>
                 <h4>BURGER</h4>
             </div>
 
-            <div class="menu-container">
+            <div class="menu-container" onclick="location.href='#pasta-section'">
                 <div class="menu-card" id="card2">
                     <img src="imgs/menu/menu-2.png" alt="PASTA & CHICKEN">
                 </div>
                 <h4>PASTA & CHICKEN</h4>
             </div>
 
-            <div class="menu-container">
+            <div class="menu-container" onclick="location.href='#rice-section'">
                 <div class="menu-card" id="card3">
                     <img src="imgs/menu/menu-3.png" alt="RICE MEALS">
                 </div>
                 <h4>RICE MEALS</h4>
             </div>
 
-            <div class="menu-container">
+            <div class="menu-container" onclick="location.href='#beverages-section'">
                 <div class="menu-card" id="card4">
                     <img src="imgs/menu/menu-4.png" alt="BEVERAGES">
                 </div>
                 <h4>BEVERAGES</h4>
             </div>
 
-            <div class="menu-container">
+            <div class="menu-container" onclick="location.href='#sandwiches-section'">
                 <div class="menu-card" id="card5">
                     <img src="imgs/menu/menu-5.png" alt="SANDWICHES">
                 </div>
                 <h4>SANDWICHES</h4>
             </div>
 
-            <div class="menu-container">
+            <div class="menu-container" onclick="location.href='#four-section'">
                 <div class="menu-card" id="card6">
                     <img src="imgs/menu/menu-6.png" alt="FOUR + ONE">
                 </div>
                 <h4>FOUR</h4>
             </div>
 
-            <div class="menu-container">
+            <div class="menu-container" onclick="location.href='#six-section'">
                 <div class="menu-card" id="card7">
                     <img src="imgs/menu/menu-7.png" alt="SIX + ONE">
                 </div>
                 <h4>SIX + ONE</h4>
             </div>
 
-            <div class="menu-container">
+            <div class="menu-container" onclick="location.href='#desserts-section'">
                 <div class="menu-card" id="card8">
                     <img src="imgs/menu/menu-8.png" alt="OTHER DESSERTS">
                 </div>
                 <h4>OTHER DESSERTS</h4>
             </div>
 
-            <div class="menu-container">
+            <div class="menu-container" onclick="location.href='#value-section'">
                 <div class="menu-card" id="card9">
                     <img src="imgs/menu/menu-9.png" alt="VALUE MEALS">
                 </div>
@@ -107,7 +108,7 @@
     </section>
 
     <!-- BURGER SECTION -->
-    <section class="burger-section">
+    <section class="burger-section" id="burger-section">
         
         <h2>BURGER</h2>
 
@@ -232,7 +233,7 @@
     </section>
 
     <!-- PASTA SECTION -->
-    <section class="pasta-section">
+    <section class="pasta-section" id="pasta-section">
         <div class="pasta-heading">
             <h2>PASTA & CHICKEN</h2>
         </div>
@@ -359,7 +360,7 @@
     </section>
 
     <!-- RICE SECTION -->
-    <section class="rice-section">
+    <section class="rice-section" id="rice-section">
         <div class="rice-heading">
             <h2>RICE MEALS</h2>
         </div>
@@ -486,7 +487,7 @@
     </section>
 
     <!-- BEVERAGES SECTION -->
-    <section class="beverages-section">
+    <section class="beverages-section" id="beverages-section">
         <div class="beverages-heading">
             <h2>BEVERAGES</h2>
         </div>
@@ -535,7 +536,7 @@
     </section>
 
     <!-- SANDWICHES SECTION -->
-    <section class="sandwiches-section">
+    <section class="sandwiches-section" id="sandwiches-section">
         <div class="sandwiches-heading">
             <h2>SANDWICHES</h2>
         </div>
@@ -644,7 +645,7 @@
     </section>
 
     <!-- FOUR SECTION -->
-    <section class="four-section">
+    <section class="four-section" id="four-section">
         <div class="four-heading">
             <h2>FOUR + ONE</h2>
         </div>
@@ -705,7 +706,7 @@
     </section>
 
     <!-- SIX SECTION -->
-    <section class="six-section">
+    <section class="six-section" id="six-section">
         <div class="six-heading">
             <h2>SIX + ONE</h2>
         </div>
@@ -754,7 +755,7 @@
     </section>
 
      <!-- DESSERTS SECTION -->
-     <section class="desserts-section">
+     <section class="desserts-section" id="desserts-section">
         <div class="desserts-heading">
             <h2>DESSERTS</h2>
         </div>
@@ -815,7 +816,7 @@
     </section>
 
     <!-- VALUE MEALS SECTION -->
-    <section class="value-section">
+    <section class="value-section" id="value-section">
         <div class="value-heading">
             <h2>VALUE MEALS</h2>
         </div>
@@ -848,28 +849,37 @@
     <!-- FOOTER SECTION -->
     <section class="footer-section"> 
         <div class="footer-container">
-          <div class="footer-menu">
-            <h3>MENU</h3>
-            <a href="#">CATEGORIES</a>
-            <a href="#">POPULAR NOW</a>
+
+          <div class="footer-row">
+
+            <div class="footer-menu">
+              <h3>MENU</h3>
+              <a href="menu.html">CATEGORIES</a><br>
+              <a href="#popular-now">POPULAR NOW</a>
+            </div>
+
+            <div class="footer-about">
+              <h3>ABOUT US</h3>
+              <a href="#who-section">WHO ARE WE</a>
+            </div>
+
+            <div class="footer-follow">
+              <h3>FOLLOW US</h3>
+              <div class="follow">
+              <i href="#" class="fa fa-facebook"></i>
+              <i href="#" class="fa fa-twitter"></i>
+              <i href="#" class="fa fa-instagram"></i>
+              </div>
+            </div>
+          
           </div>
 
-          <div class="footer-about">
-            <h3>ABOUT US</h3>
-            <a href="#">WHO ARE WE</a>
+          <div class="topicalhut">
+            <img src="imgs/footer-logo.png" alt="topicalhut">
           </div>
 
-          <div class="footer-follow">
-            <h3>FOLLOW US</h3>
-            <img src="#">
-            <img src="#">
-            <img src="#">
-          </div>
         </div>
-
-        <div class="footer-container">
-          <img src="#">
-        </div>
+        <h5>© 2023 All rights reserved.<h5>
     </section>
 
   
