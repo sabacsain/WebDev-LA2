@@ -308,7 +308,7 @@ nav .img-bg:hover{
     width: 100%;
     flex-direction: column;
    position: sticky;
-    top: 0;
+    top: 62px;
   }
 
 
