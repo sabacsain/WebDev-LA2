@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tropical Hut</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  
+<!-- BODY -->
+<body>
+
+  <!-- NAVIGATION BAR -->
+  <nav>
+
+    <div class="logo-box">
+      <div class="img-bg" onclick="location.href='index.html';"><img src="imgs/nav-logo.png" alt="tropical hut logo"></div>
+    </div>
+
+    <div class="wrap">
+      <div class="search">
+         <input type="text" class="searchTerm" placeholder="&#xF002; Search" style="font-family:Arial, FontAwesome">
+        </button>
+      </div>
+   </div>
+   <ul>
+    <li><a href="index.html">HOME</a></li>
+    <li><a href="menu.html">MENU</a></li>
+    <li><a href="order.html">ORDERS</a></li>
+    <li><a href="account.html">SIGN IN</a></li>
+   </ul>
+  </nav>
+  
+  <div class="order">
+
+    <!-- ORDER SECTION -->
+    <section class="order-section">
+      <h2 class="title">ORDER SUMMARY</h2>
+      <div class="order-container">
+        <div class="order-table-">
+          <div class="order-left">
+            <table class="table-list">
+              <thead>
+                <tr>
+                  <th>ITEM/S</th>
+                  <th>UNIT PRICE</th>
+                  <th>QUANTITY</th>
+                  <th>TOTAL PRICE</th>
+                </tr>
+              </thead>
+
+              <tbody>
+                <!-- ROW 1 -->
+                <tr>
+                  <td><img src="imgs/order/order-1.png" alt="order-1"></img>
+                    <p>Double Burger, Regular <br> French Fries, Regular <br> Softdrink - Value Meal </p></th> </td>
+                  <td>PHP 261</td>
+                  <td><form id='myform' method='POST' class='quantity' action='#'>
+                    <input type='button' value='-' class='qtyminus minus' field='quantity' />
+                    <input type='text' name='quantity' value='2' class='qty' />
+                    <input type='button' value='+' class='qtyplus plus' field='quantity' />
+                  </form></td>
+                  <td>PHP 522</td>
+                </tr>
+                <!-- ROW 2 -->
+                <tr>
+                    <td><img src="imgs/order/order-2.png" alt="order-1"></img>
+                        <p>Fried Chicken 1 pc. with Rice, <br> Regular Softdrink - Value Meal  </p></th> </td>
+                  <td>PHP 113</td>
+                  <td><form id='myform' method='POST' class='quantity' action='#'>
+                    <input type='button' value='-' class='qtyminus minus' field='quantity' />
+                    <input type='text' name='quantity' value='1' class='qty' />
+                    <input type='button' value='+' class='qtyplus plus' field='quantity' />
+                  </form></td>
+                  <td>PHP 113</td>
+                </tr>
+                <!-- ROW 3 -->
+                <tr>
+                    <td><img src="imgs/order/order-3.png" alt="order-1"></img>
+                        <p>Bistek Tagalog with Rice - <br> Solo  </p></th> </td>
+                  <td>PHP 151</td>
+                  <td><form id='myform' method='POST' class='quantity' action='#'>
+                    <input type='button' value='-' class='qtyminus minus' field='quantity' />
+                    <input type='text' name='quantity' value='3' class='qty' />
+                    <input type='button' value='+' class='qtyplus plus' field='quantity' />
+                  </form></td>
+                  <td>PHP 453</td>
+                </tr>
+              </tbody>
+            </table>   
+          </div>
+
+          <div class="order-right">>
+            <div class="order-right-top">
+              <h3>ORDER SUMMARY</h3>
+
+              <table class="table-summary">
+                <tbody>
+                  <tr>
+                    <td>NO. OF ITEMS :</td>
+                    <td>6</td>
+                  </tr>
+                  <tr>
+                    <td>GRAND TOTAL :</td>
+                    <td> <span> PHP 1088 </span> </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="order-right-bottom">
+              <h3>SHIPMENT DETAILS</h3>
+
+              <div class="shipment-container">
+                <div class="customer-info">
+                  <h4>CUSTOMER'S INFORMATION:</h4>
+                  <tbody>
+                    <div class="row1">
+                      <!-- ROW 1 -->
+                      <td><h2>NAME:</td></h2>
+                      <h2> <span> Carla Santos</span></h2>
+                </div>
+                      <!-- ROW 2 -->
+                      <div class="row1">
+                      <td><h2>PHONE:</h2>
+                      <h2> <span> (+63) 923 432 8969</span></h2>
+                      </div>
+                    <!-- ROW 3 -->
+                    <div class="row1">
+                      <td><h2>EMAIL:</h2></td>
+                      <h2> <span> carlasantos@gmail.com</span></h2>
+                    </div>>
+                  </tbody>
+                </div>
+
+                <div class="DELIVERY ADDRESS:">
+                    <h4>DELIVERY ADDRESS:</h4>
+                  <tbody>
+                    <div class="row1">
+                      <td><h2>ADDRESS:</h2></td>
+                      <h2> <span>2033 Osmena Highway San Andres Bukid Manila, Barangay 738, Malate Metro Manila</span> </h2>
+                    </div>
+                  </tbody>
+                </div>
+
+                <div class="PAYMENT DETAILS:">
+                    <h4>PAYMENT DETAILS:</h4>
+                  <tbody>
+                    <div class="row1">
+                      <td><h2>MODE:</h2></td>         
+                      <h2> <span> Cash on Delivery (COD)</span></h2>
+                    </div>
+                    </div>
+                  </tbody>
+                  <a href="#">Edit Information</a>
+                </div>
+                <div class="center">
+                <button>PLACE ORDER</button>
+            </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        
+
+      </div>
+    </section>
+
+    <!-- FOOTER SECTION -->
+    <section class="footer-section"> 
+      <div class="footer-container">
+
+        <div class="footer-row">
+
+          <div class="footer-menu">
+            <h3>MENU</h3>
+            <a href="index.html#categories-section">CATEGORIES</a><br>
+            <a href="index.html#popular-now">POPULAR NOW</a>
+          </div>
+
+          <div class="footer-about">
+            <h3>ABOUT US</h3>
+            <a href="index.html#who-section">WHO ARE WE</a>
+          </div>
+
+          <div class="footer-follow">
+            <h3>FOLLOW US</h3>
+            <div class="follow">
+            <i href="#" class="fa fa-facebook"></i>
+            <i href="#" class="fa fa-twitter"></i>
+            <i href="#" class="fa fa-instagram"></i>
+            </div>
+          </div>
+        
+        </div>
+
+        <div class="topicalhut">
+          <img src="imgs/footer-logo.png" alt="topicalhut">
+        </div>
+
+      </div>
+      <h5>© 2023 All rights reserved.<h5>
+  </section>
+
+  </div>
+
+
+  </div>
+  
+  </div>
+</body>
+</html>
