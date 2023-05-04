@@ -487,16 +487,16 @@ nav .img-bg:hover{
     font-size: clamp(0.625rem, 0.3125rem + 1vw, 0.875rem);
     height: 40px;
     text-align: center;
-    color: #001104;
+    color: #FFFFFF;
     padding: 0 5%;
   }
 
   .burger-section h4{
-    font-weight: 700;
     font-size: clamp(0.9375rem, 0.5469rem + 1.25vw, 1.25rem);
     line-height: 30px;
-    color: #FFFFFF;
+    color: #ffff00;
     text-align: center;
+    font-weight: bolder;
   }
 
   .burger-section button{
@@ -579,16 +579,16 @@ nav .img-bg:hover{
     font-size: clamp(0.625rem, 0.3125rem + 1vw, 0.875rem);
     height: 40px;
     text-align: center;
-    color: #001104;
+    color: white;
     padding: 0 5%;
   }
 
   .pasta-section h4{
-    font-weight: 700;
     font-size: clamp(0.9375rem, 0.5469rem + 1.25vw, 1.25rem);
     line-height: 30px;
-    color: #FFFFFF;
+    color: #ffff00;
     text-align: center;
+    font-weight: bolder;
   }
 
   .pasta-section button{
@@ -671,16 +671,16 @@ nav .img-bg:hover{
     font-size: clamp(0.625rem, 0.3125rem + 1vw, 0.875rem);
     height: 40px;
     text-align: center;
-    color: #001104;
+    color: white;
     padding: 0 5%;
   }
 
   .rice-section h4{
-    font-weight: 700;
     font-size: clamp(0.9375rem, 0.5469rem + 1.25vw, 1.25rem);
     line-height: 30px;
-    color: #FFFFFF;
+    color: #ffff00;
     text-align: center;
+    font-weight: bolder;
   }
 
   .rice-section button{
@@ -763,16 +763,16 @@ nav .img-bg:hover{
     font-size: clamp(0.625rem, 0.3125rem + 1vw, 0.875rem);
     height: 40px;
     text-align: center;
-    color: #001104;
+    color: white;
     padding: 0 5%;
   }
 
   .beverages-section h4{
-    font-weight: 700;
     font-size: clamp(0.9375rem, 0.5469rem + 1.25vw, 1.25rem);
     line-height: 30px;
-    color: #FFFFFF;
+    color: #ffff00;
     text-align: center;
+    font-weight: bolder;
   }
 
   .beverages-section button{
@@ -855,16 +855,16 @@ nav .img-bg:hover{
     font-size: clamp(0.625rem, 0.3125rem + 1vw, 0.875rem);
     height: 40px;
     text-align: center;
-    color: #001104;
+    color: white;
     padding: 0 5%;
   }
 
   .sandwiches-section h4{
-    font-weight: 700;
     font-size: clamp(0.9375rem, 0.5469rem + 1.25vw, 1.25rem);
     line-height: 30px;
-    color: #FFFFFF;
+    color: #ffff00;
     text-align: center;
+    font-weight: bolder;
   }
 
   .sandwiches-section button{
@@ -947,16 +947,16 @@ nav .img-bg:hover{
       font-size: clamp(0.625rem, 0.3125rem + 1vw, 0.875rem);
       height: 40px;
       text-align: center;
-      color: #001104;
+      color: white;
       padding: 0 5%;
     }
   
     .four-section h4{
-      font-weight: 700;
       font-size: clamp(0.9375rem, 0.5469rem + 1.25vw, 1.25rem);
       line-height: 30px;
-      color: #FFFFFF;
+      color: #ffff00;
       text-align: center;
+      font-weight: bolder;
     }
   
     .four-section button{
@@ -1039,16 +1039,16 @@ nav .img-bg:hover{
       font-size: clamp(0.625rem, 0.3125rem + 1vw, 0.875rem);
       height: 40px;
       text-align: center;
-      color: #001104;
+      color: white;
       padding: 0 5%;
     }
   
     .six-section h4{
-      font-weight: 700;
       font-size: clamp(0.9375rem, 0.5469rem + 1.25vw, 1.25rem);
       line-height: 30px;
-      color: #FFFFFF;
+      color: #ffff00;
       text-align: center;
+      font-weight: bolder;
     }
   
     .six-section button{
@@ -1132,16 +1132,16 @@ nav .img-bg:hover{
       font-size: clamp(0.625rem, 0.3125rem + 1vw, 0.875rem);
       height: 40px;
       text-align: center;
-      color: #001104;
+      color: white;
       padding: 0 5%;
     }
   
     .desserts-section h4{
-      font-weight: 700;
       font-size: clamp(0.9375rem, 0.5469rem + 1.25vw, 1.25rem);
       line-height: 30px;
-      color: #FFFFFF;
+      color: #ffff00;
       text-align: center;
+      font-weight: bolder;
     }
   
     .desserts-section button{
@@ -1224,16 +1224,16 @@ nav .img-bg:hover{
       font-size: clamp(0.625rem, 0.3125rem + 1vw, 0.875rem);
       height: 40px;
       text-align: center;
-      color: #001104;
+      color: white;
       padding: 0 5%;
     }
   
     .value-section h4{
-      font-weight: 700;
       font-size: clamp(0.9375rem, 0.5469rem + 1.25vw, 1.25rem);
       line-height: 30px;
-      color: #FFFFFF;
+      color: #ffff00;
       text-align: center;
+      font-weight: bolder;
     }
   
     .value-section button{
@@ -1387,14 +1387,13 @@ color: orange;
 
 .account-section{
   background: #062D18;
-  padding-top: 180px;
+  padding-top: 20px;
   align-items: center;
   font-family: 'Poppins';
 }
 .account-section #account-form{
     margin: auto;
     width: fit-content;
-    padding-bottom: 10px;
     line-height: 40px;
 }
 .account-section label{
@@ -1422,12 +1421,14 @@ color: orange;
 .account-section .address{
   height: 90px;
 }
+.account-heading{
+  margin-top:100px;
+}
 .account-section h2{
   text-align: center;
   color: white;
   font-weight: 600;
   font-size: 39px;
-  line-height: 255px;
 }
 .account-section h1{
   text-align: center;
@@ -1699,8 +1700,8 @@ input.qtyminus {
   height: fit-content;
   font-weight: 500;
   font-size: 20px;
-  line-height: 30px;
-  color: #60646C;
+  line-height: 75px;
+  color: white;
   margin: 0;
 }
 .footer-section h3{
